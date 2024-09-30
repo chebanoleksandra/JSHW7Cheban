@@ -22,6 +22,7 @@ document.write("<br />");*/
 
 //3
 let text = "http://www.ufa.com.ua/utilites/hdd/out.php?sort=2";
+document.write(text + "<br / >");
 let s = text.indexOf("/");
 let protocol = text.slice(0, s);
 text = text.slice(s+2);
